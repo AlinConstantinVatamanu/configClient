@@ -1,0 +1,12 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: configclient-test
+some:
+  value: test 15:30
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
